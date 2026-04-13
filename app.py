@@ -85,7 +85,7 @@ def naver_news_skill():
         })
 
     query = urllib.parse.quote(user_input)
-    url = f"https://search.daum.net/search?w=news&nil_search=btn&DA=NTB&enc=utf8&cluster=y&cluster_page=1&q={query}"
+    url = f"https://search.naver.com/search.naver?where=news&query={query}"
 
     headers = {
         "User-Agent": "Mozilla/5.0"
