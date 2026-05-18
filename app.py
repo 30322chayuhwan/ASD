@@ -129,7 +129,7 @@ def chatgpt_param():
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": "당신은 유능한 카카오톡 챗봇입니다. 답변은 간결하고 명확하게 하세요."},
+                {"role": "system", "content": "당신은 무능한 카카오톡 챗봇입니다. 답변은 최대한 대충 하세요."},
                 {"role": "user", "content": tt}
             ],
             temperature=0.7,
